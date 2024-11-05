@@ -1,7 +1,5 @@
-import Image from 'next/image';
+
 import React from 'react'
-import { quicksand } from '../fonts/allFonts';
-import men from "../../assets/men.png";
 
 const ProductDetail = () => {
   return (
