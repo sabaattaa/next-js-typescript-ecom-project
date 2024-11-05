@@ -9,7 +9,7 @@ export default function Loading() {
         height: "100vh",
       }}
     >
-      <span>Loading...</span>
+      <span>Abbout us in Loading...</span>
     </div>
   );
 }

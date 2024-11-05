@@ -54,6 +54,7 @@ const Footer = () => {
               {item?.subHeadings?.map((item2, index2) => {
                 return (
                   <span
+                    key={index2}
                     className={`${lato.className} fw-5 p-1`}
                     style={{ color: "#253D4E", fontSize: "15px" }}
                   >

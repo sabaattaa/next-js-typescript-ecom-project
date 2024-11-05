@@ -44,12 +44,13 @@ const Page = () => {
           <div
             className="d-flex flex-wrap w-100  justify-content-center"
             style={{
-              gap: "10px",
+              gap: "20px",
               //   maxWidth: "30%"
             }}
           >
             {[women, women, women].map((item, index) => (
               <Image
+                key={index}
                 src={item}
                 alt="Women Image"
                 //   width={80}
