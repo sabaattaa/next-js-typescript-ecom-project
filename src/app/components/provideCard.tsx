@@ -8,14 +8,12 @@ type cardTypes = {
 };
 export const ProvideCard: React.FC<cardTypes> = ({ img, heading, text }) => (
   <div
-    className="d-flex p-3 flex-column red align-items-center justify-content-center
+    className="d-flex p-3 flex-column  align-items-center justify-content-center
   col-12
-  col-sm-4
+  col-sm-5
   col-md-5
-  col-lg-4
-  col-xl-4
-  col-xxl-5
-  
+  col-lg-5
+  col-xl-3  
   "
   >
     <Image src={img} alt="text" height={100} width={100} />

@@ -64,9 +64,9 @@ const Page = () => {
           </div>
         </div>
       </section>
-      <section className="red d-flex flex-column align-items-center justify-content-center">
+      <section className=" d-flex flex-column align-items-center justify-content-center">
         <Heading heading={"What We Provide?"} />
-        <div className="d-flex flex-wrap blue gap-15">
+        <div className="d-flex flex-wrap blue gap-15  align-items-center justify-content-center">
           {provideCard.map((item, index) => (
             <ProvideCard
               img={item.img}
