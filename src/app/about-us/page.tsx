@@ -66,15 +66,15 @@ const Page = () => {
       </section>
       <section className="red d-flex flex-column align-items-center justify-content-center">
         <Heading heading={"What We Provide?"} />
-        <div className="d-flex flex-wrap">
+        <div className="d-flex flex-wrap blue gap-15" >
           {provideCard.map((item, index) => (
-            <div key={index}>
+         
               <ProvideCard
                 img={item.img}
                 heading={item.heading}
-                text={item.text}
+              text={item.text}
+              key={index}
               />
-            </div>
           ))}
         </div>
       </section>

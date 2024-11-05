@@ -178,7 +178,7 @@ const Page = () => {
             </span>
             <div className="d-flex w-100 ">
               <span className="small-gray-text fw-4">
-                Start You'r Daily Shopping with{" "}
+                Start You&apos;r Daily Shopping with{" "}
               </span>
               <span className="small-gray-text fw-7 green-text ps-1">
                 Nest Mart

@@ -182,3 +182,8 @@ color: #253D4E;
 .box-shadow {
   box-shadow: 4px 4px 15px #e5dcdc;
 }
+
+.gap-5{gap: 5px !important;}
+.gap-10{gap: 10px !important;}
+.gap-15{gap: 15px !important;}
+.gap-20{gap: 20px !important;}

@@ -1,11 +1,11 @@
 // Home Page
 // Header Content
-import bestprice from "../assets/bestprice.png"
+import bestprice from "../assets/bestprice.png";
 export const tobHeadreContent = [
-    { link: "about-us", text: "About Us" },
-    { link: "my-account", text: "My Account" },
-    { link: "wishlist", text: "Wishlist" },
-    { link: "order-tracking", text: "Order Tracking" },
+  { link: "about-us", text: "About Us" },
+  { link: "my-account", text: "My Account" },
+  { link: "wishlist", text: "Wishlist" },
+  { link: "order-tracking", text: "Order Tracking" },
 ];
 
 export const categories = [
@@ -102,31 +102,28 @@ export const tobHeadreContent3 = [
   },
 ];
 
-
 export const headerCompare = [
-    { link: "about-us", text: "Compare" },
-    { link: "my-account", text: "Wishlist" },
-    { link: "wishlist", text: "Cart" },
-    { link: "order-tracking", text: "Account" },
+  { link: "about-us", text: "Compare" },
+  { link: "my-account", text: "Wishlist" },
+  { link: "wishlist", text: "Cart" },
+  { link: "order-tracking", text: "Account" },
 ];
 
 export const language = [
-    { id: 1, option: "English" },
-    { id: 2, option: "Urdu" },
-    { id: 3, option: "Punjabi" },
-    { id: 4, option: "Pathani" },
-    { id: 5, option: "Mawati" },
+  { id: 1, option: "English" },
+  { id: 2, option: "Urdu" },
+  { id: 3, option: "Punjabi" },
+  { id: 4, option: "Pathani" },
+  { id: 5, option: "Mawati" },
 ];
 
 export const currancy = [
-    { id: 1, option: "USD" },
-    { id: 2, option: "PKR" },
-    { id: 3, option: "INR" },
-    { id: 4, option: "ALP" },
-    { id: 5, option: "RAYAL" },
+  { id: 1, option: "USD" },
+  { id: 2, option: "PKR" },
+  { id: 3, option: "INR" },
+  { id: 4, option: "ALP" },
+  { id: 5, option: "RAYAL" },
 ];
-
-
 
 export const sidebarCardContent = [
   { text: "Milks & Dairies", count: "3" },
@@ -135,10 +132,6 @@ export const sidebarCardContent = [
   { text: "Baking material", count: "8" },
   { text: "Fresh Fruit", count: "10" },
 ];
-
-
-
-
 
 export const footerContent = [
   {
@@ -180,6 +173,69 @@ export const footerContent = [
 ];
 
 export const provideCard = [
+  {
+    img: bestprice,
+    heading: "Best Prices and Offers",
+    text: `There are many variations of passages of Lorem
+Ipsum available, but the majority have suffered
+alteration in some form`,
+  },
+  {
+    img: bestprice,
+    heading: "Best Prices and Offers",
+    text: `There are many variations of passages of Lorem
+Ipsum available, but the majority have suffered
+alteration in some form`,
+  },
+  {
+    img: bestprice,
+    heading: "Best Prices and Offers",
+    text: `There are many variations of passages of Lorem
+Ipsum available, but the majority have suffered
+alteration in some form`,
+  },
+  {
+    img: bestprice,
+    heading: "Best Prices and Offers",
+    text: `There are many variations of passages of Lorem
+Ipsum available, but the majority have suffered
+alteration in some form`,
+  },
+  {
+    img: bestprice,
+    heading: "Best Prices and Offers",
+    text: `There are many variations of passages of Lorem
+Ipsum available, but the majority have suffered
+alteration in some form`,
+  },
+  {
+    img: bestprice,
+    heading: "Best Prices and Offers",
+    text: `There are many variations of passages of Lorem
+Ipsum available, but the majority have suffered
+alteration in some form`,
+  },
+  {
+    img: bestprice,
+    heading: "Best Prices and Offers",
+    text: `There are many variations of passages of Lorem
+Ipsum available, but the majority have suffered
+alteration in some form`,
+  },
+  {
+    img: bestprice,
+    heading: "Best Prices and Offers",
+    text: `There are many variations of passages of Lorem
+Ipsum available, but the majority have suffered
+alteration in some form`,
+  },
+  {
+    img: bestprice,
+    heading: "Best Prices and Offers",
+    text: `There are many variations of passages of Lorem
+Ipsum available, but the majority have suffered
+alteration in some form`,
+  },
   {
     img: bestprice,
     heading: "Best Prices and Offers",

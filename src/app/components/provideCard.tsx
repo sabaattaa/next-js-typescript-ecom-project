@@ -5,9 +5,11 @@ type cardTypes = {
   img: StaticImageData;
   heading: string;
   text: string;
+  key: number;
 };
-export const ProvideCard: React.FC<cardTypes> = ({ img, heading, text }) => (
+export const ProvideCard: React.FC<cardTypes> = ({ img, heading, text ,key}) => (
   <div
+    key={key}
     className="d-flex p-3 flex-column red align-items-center justify-content-center
   col-12
   col-sm-6
