@@ -16,7 +16,7 @@ const ShopNowCard : React.FC<shopNowTypes>=({heading, image, onclick}) => {
       </span>
       <div className="d-flex  w-100 align-items-center justify-content-between px-3">
         <div
-          className={`p-2 rounded-2 text-white  bg-green fw-7${quicksand.className} `}
+          className={`p-2 red rounded-2 text-white  bg-green fw-7${quicksand.className} `}
           onClick={() => onclick()}
         >
           Shop Now

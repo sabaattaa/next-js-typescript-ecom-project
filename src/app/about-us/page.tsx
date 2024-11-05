@@ -1,9 +1,10 @@
+"use client";
 import Image from "next/image";
 import React from "react";
 import { lato, quicksand } from "../fonts/allFonts";
 import women from "../../assets/women.png";
 import { Heading } from "../components/heading";
-import {provideCard} from "../utiils.functions"
+import { provideCard } from "../utiils.functions";
 import { ProvideCard } from "../components/provideCard";
 const Page = () => {
   return (
@@ -15,7 +16,6 @@ const Page = () => {
           width={500}
           height={300}
           style={{ maxWidth: "100%", height: "auto" }}
-     
         />
 
         <div className="d-flex flex-column justify-content-center align-items-center p-3">
@@ -66,15 +66,14 @@ const Page = () => {
       </section>
       <section className="red d-flex flex-column align-items-center justify-content-center">
         <Heading heading={"What We Provide?"} />
-        <div className="d-flex flex-wrap blue gap-15" >
+        <div className="d-flex flex-wrap blue gap-15">
           {provideCard.map((item, index) => (
-         
-              <ProvideCard
-                img={item.img}
-                heading={item.heading}
+            <ProvideCard
+              img={item.img}
+              heading={item.heading}
               text={item.text}
               key={index}
-              />
+            />
           ))}
         </div>
       </section>
