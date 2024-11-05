@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { lato, quicksand } from "../fonts/allFonts";
 import women from "../../assets/women.png";
+import { Heading } from "../components/heading";
 
 const Page = () => {
   return (
@@ -60,6 +61,9 @@ const Page = () => {
             ))}
           </div>
         </div>
+      </section>
+      <section className="red d-flex flex-column">
+        <Heading heading={"What We Provide?"} />
       </section>
     </div>
   );

@@ -139,7 +139,7 @@ const TopHeader3 = () => {
             />
           </div>
         ) : (
-          <a href={item?.link}>
+          <a href={item?.link} key={index}>
             <div className="col-auto gray-text" key={index}>
               {item?.text}
             </div>
