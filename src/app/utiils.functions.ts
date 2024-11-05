@@ -52,7 +52,6 @@ export const tobHeadreContent3 = [
     link: "about-us",
     text: "About",
     icon: "",
-    categories: categories,
   },
 
   {

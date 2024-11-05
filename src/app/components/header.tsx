@@ -130,7 +130,7 @@ const TopHeader3 = () => {
           <div className="" key={index}>
             <DropdownC
               text={item?.text}
-              optionsArray={item?.categories}
+              optionsArray={item?.categories ?? []}
               style={{
                 backgroundColor: index == 0 ? "#3BB77E" : "",
                 color: index == 0 ? "#ffff" : "#7E7E7E",

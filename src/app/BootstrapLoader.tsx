@@ -2,14 +2,13 @@
 "use client";
 
 import { useEffect } from "react";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 const BootstrapLoader = () => {
   useEffect(() => {
     const loadBootstrap = async () => {
       if (typeof window !== "undefined") {
-        await import("bootstrap/dist/js/bootstrap.bundle.min.js");
-        await import('bootstrap-icons/font/bootstrap-icons.css');
-;
+        // await import("bootstrap/dist/js/bootstrap.bundle.min.js") as any;
       }
     };
 
