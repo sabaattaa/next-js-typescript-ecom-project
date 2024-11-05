@@ -27,7 +27,7 @@ export const SidebarBox1 = () => {
           key={index}
           className="mt-3 d-flex align-items-center justify-content-between py-2 px-3 rounded-2 b-gray"
         >
-          <Image src={categoryImages[index]} />
+          <Image src={categoryImages[index]} alt="categri images" />
           <div className=" d-flex align-items-center justify-content-start w-100 ps-3">
             {item.text}
           </div>
@@ -98,7 +98,7 @@ export const SidebarBox3 = () => {
       ></div>
       <div className="d-flex mt-3 p-2 align-items-center justify-content-between row b-bottom-gray ">
         <div className="col-auto">
-          <Image src={mango} />
+          <Image src={mango} alt="Next.js logo" />
         </div>
         <div className="col-auto column ">
           <div className="green-text fw-700"> Chen Cardigan</div>
@@ -109,7 +109,7 @@ export const SidebarBox3 = () => {
       </div>
       <div className="d-flex mt-3 p-2 align-items-center justify-content-between row b-bottom-gray ">
         <div className="col-auto">
-          <Image src={mango} />
+          <Image src={mango} alt="Next.js logo" />
         </div>
         <div className="col-auto column ">
           <div className="green-text fw-700"> Chen Cardigan</div>
@@ -120,7 +120,7 @@ export const SidebarBox3 = () => {
       </div>
       <div className="d-flex mt-3 p-2 align-items-center justify-content-between row b-bottom-gray ">
         <div className="col-auto">
-          <Image src={mango} />
+          <Image src={mango} alt="Next.js logo" />
         </div>
         <div className="col-auto column ">
           <div className="green-text fw-700"> Chen Cardigan</div>

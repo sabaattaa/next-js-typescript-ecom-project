@@ -10,7 +10,11 @@ export const ProvideCard: React.FC<cardTypes> = ({ img, heading, text }) => (
   <div
     className="d-flex p-3 flex-column red align-items-center justify-content-center
   col-12
-  col-sm-3 
+  col-sm-6
+  col-md-5
+  col-lg-4
+  col-xl-4
+  col-xxl-5
   
   "
   >

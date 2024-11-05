@@ -15,6 +15,7 @@ const Page = () => {
           width={500}
           height={300}
           style={{ maxWidth: "100%", height: "auto" }}
+     
         />
 
         <div className="d-flex flex-column justify-content-center align-items-center p-3">
@@ -68,7 +69,11 @@ const Page = () => {
         <div className="d-flex flex-wrap">
           {provideCard.map((item, index) => (
             <div key={index}>
-              <ProvideCard img={item.img} heading={item.heading} text={item.text} />
+              <ProvideCard
+                img={item.img}
+                heading={item.heading}
+                text={item.text}
+              />
             </div>
           ))}
         </div>
