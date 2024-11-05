@@ -15,7 +15,7 @@ const ProductDetail = () => {
           style={{ gap: "30px" }}
         >
           <span className={`heading fw-7 ${quicksand.className}`}>
-            Stay home & get your daily needs from our shop
+            Stay home and get your daily needs from our shop
           </span>
           <div className="d-flex w-100 ">
             <span className="small-gray-text fw-4">

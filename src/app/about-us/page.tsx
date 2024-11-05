@@ -62,7 +62,7 @@ const Page = () => {
           </div>
         </div>
       </section>
-      <section className="red d-flex flex-column">
+      <section className="red d-flex flex-column align-items-center justify-content-center">
         <Heading heading={"What We Provide?"} />
       </section>
     </div>
