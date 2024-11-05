@@ -1,6 +1,6 @@
 // Home Page
 // Header Content
-
+import bestprice from "../assets/bestprice.png"
 export const tobHeadreContent = [
     { link: "about-us", text: "About Us" },
     { link: "my-account", text: "My Account" },
@@ -176,5 +176,15 @@ export const footerContent = [
       { name: "Support Center", link: "support-center" },
       { name: "Careers", link: "Careers" },
     ],
+  },
+];
+
+export const provideCard = [
+  {
+    img: bestprice,
+    heading: "Best Prices and Offers",
+    text: `There are many variations of passages of Lorem
+Ipsum available, but the majority have suffered
+alteration in some form`,
   },
 ];

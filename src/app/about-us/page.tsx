@@ -3,7 +3,8 @@ import React from "react";
 import { lato, quicksand } from "../fonts/allFonts";
 import women from "../../assets/women.png";
 import { Heading } from "../components/heading";
-
+import {provideCard} from "../utiils.functions"
+import { ProvideCard } from "../components/provideCard";
 const Page = () => {
   return (
     <div className="p-3">
@@ -64,6 +65,13 @@ const Page = () => {
       </section>
       <section className="red d-flex flex-column align-items-center justify-content-center">
         <Heading heading={"What We Provide?"} />
+        <div className="d-flex flex-wrap">
+          {provideCard.map((item, index) => (
+            <div key={index}>
+              <ProvideCard img={item.img} heading={item.heading} text={item.text} />
+            </div>
+          ))}
+        </div>
       </section>
     </div>
   );
