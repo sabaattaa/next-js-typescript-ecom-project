@@ -26,6 +26,17 @@ const ProductCard: React.FC<ProductCardTypes> =({
   starsRating,
   productNickName,
 }) => {
+  console.log(
+    status,
+    image,
+    ratingNo,
+    basePrice,
+    offerPrice,
+    companyName,
+    productName,
+    starsRating,
+    productNickName
+  );
   return (
     <div className="b-gray col-3 card-size d-flex flex-column rounded-4">
       <div className="card-status">Hot</div>

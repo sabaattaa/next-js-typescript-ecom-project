@@ -12,19 +12,19 @@ const ShopNowCard : React.FC<shopNowTypes>=({heading, image, onclick}) => {
       className=" rounded-4 box-shadow p-3"
     >
       <span className={`heading fw-7 ${quicksand.className}`}>
-        Everyday with Our Products
+        {heading || "Everyday with Our Products"}
       </span>
       <div className="d-flex  w-100 align-items-center justify-content-between px-3">
         <div
           className={`p-2 rounded-2 text-white  bg-green fw-7${quicksand.className} `}
-          onClick={()=>onclick()}
+          onClick={() => onclick()}
         >
           Shop Now
         </div>
         {/* <FaArrowRight /> */}
 
         <Image
-          src={
+          src={image||
             "https://media.istockphoto.com/id/1496008525/photo/onion-isolated-on-white.jpg?s=1024x1024&w=is&k=20&c=ZIFBFZ0yLtpyABlyF6HkEqbvort0vZD6qlmxG5R0VSs="
           }
           alt="fresh product"

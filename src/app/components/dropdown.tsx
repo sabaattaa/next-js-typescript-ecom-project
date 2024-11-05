@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Dropdown } from "../typesFiles/homePhageTypes";
 
 export const DropdownC: React.FC<Dropdown> = ({
