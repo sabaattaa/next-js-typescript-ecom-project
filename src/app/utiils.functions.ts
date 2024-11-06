@@ -215,32 +215,6 @@ alteration in some form`,
 Ipsum available, but the majority have suffered
 alteration in some form`,
   },
-  {
-    img: bestprice,
-    heading: "Best Prices and Offers",
-    text: `There are many variations of passages of Lorem
-Ipsum available, but the majority have suffered
-alteration in some form`,
-  },
-  {
-    img: bestprice,
-    heading: "Best Prices and Offers",
-    text: `There are many variations of passages of Lorem
-Ipsum available, but the majority have suffered
-alteration in some form`,
-  },
-  {
-    img: bestprice,
-    heading: "Best Prices and Offers",
-    text: `There are many variations of passages of Lorem
-Ipsum available, but the majority have suffered
-alteration in some form`,
-  },
-  {
-    img: bestprice,
-    heading: "Best Prices and Offers",
-    text: `There are many variations of passages of Lorem
-Ipsum available, but the majority have suffered
-alteration in some form`,
-  },
+ 
+
 ];

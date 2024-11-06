@@ -7,7 +7,6 @@ import {
 } from "../components/sidebarBox";
 
 import { quicksand } from ".././fonts/allFonts";
-
 import ProductCard from "../components/card";
 import DealsCard from "../components/dealsCard";
 import ShopNowCard from "../components/shopNowCard";
@@ -15,7 +14,6 @@ import CategoryUi from "../components/categoryUi";
 import { categories } from "../utiils.functions";
 import men from "../../assets/men.png";
 import Image from "next/image";
-import Footer from "../components/footer";
 const Page = () => {
   return (
     <div className="row pt-4 px-3 px-md-0">
@@ -205,7 +203,6 @@ const Page = () => {
         </section>
       </section>
 
-      <Footer />
     </div>
   );
 };
