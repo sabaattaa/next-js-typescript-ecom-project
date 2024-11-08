@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import backveg from "../../assets/backveg.png";
 import Image from "next/image";
 import { lato, quicksand } from "../fonts/allFonts";
@@ -9,15 +9,17 @@ import { Heading } from "../components/heading";
 
 const Page = () => {
   const [count, setCount] = useState(1);
-  const [proPrice, setProPrice] = useState(5);
+  const [proPrice, ] = useState(5);
   const [price, setPrice] = useState(proPrice);
   const handleIncrement = (buttonType: any) => {
     buttonType == "minus"
       ? setCount(count > 1 ? count - 1 : 1)
       : setCount(count + 1);
-
-    setPrice(proPrice * count);
   };
+
+   useEffect(() => {
+     setPrice(proPrice * count);
+   }, [count]);
   return (
     <div className=" px-3">
       <section>
