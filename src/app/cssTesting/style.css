@@ -1,0 +1,141 @@
+/* universal selector  select each html element and apply this css */
+/* *{
+    border: 1px solid red;
+    background-color: black !important;
+    color :rgb(255, 255, 255) !important;
+} */
+
+/* Element  Selector  */
+
+/* div {
+  border: 1px solid red;
+  background-color: black !important;
+  color: rgb(255, 255, 255) !important;
+} */
+
+/* this is called group selector  */
+
+/* div, strong,h1 {
+  border: 1px solid red;
+  background-color: black !important;
+  color: rgb(255, 255, 255) !important;
+} */
+
+/* calss selector */
+
+.myh1 {
+  border: blue 1px solid;
+  display: inline-flex;
+}
+#myh1 {
+  border: green 1px solid;
+  padding: 10px;
+}
+
+input {
+  border: 1px solid red;
+  padding: 12px;
+  margin: 0px 0px 0px 10px;
+}
+
+input[type="email"] {
+  border: 1px solid green !important;
+  padding: 12px;
+  margin: 0px 0px 0px 10px;
+}
+input[name="email"] {
+  border: 1px solid green !important;
+  padding: 12px;
+  margin: 0px 0px 0px 10px;
+  color: green;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+input[placeholder="XXX-XXX-XXXX"] {
+  border: 1px solid green !important;
+  padding: 12px;
+  margin: 0px 0px 0px 10px;
+  color: green;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+input:focus {
+  border-color: rgb(252, 21, 198) !important;
+}
+a:link {
+  color: rgb(0, 0, 142);
+  font-size: 20px;
+}
+a:visited {
+  color: purple;
+}
+a:hover {
+  color: green;
+}
+a:active {
+  color: red;
+}
+
+#mydiv h1:nth-child(1),
+p:nth-child(3) {
+  color: red;
+}
+#mydiv p:first-of-type {
+  color: red;
+}
+  #span-sedo::before {
+    content: "Before: xxxxxxxxx";  /* Adding content before the element */
+    color: purple;
+    font-size: 20px;
+  }
+
+  /* Style content after the span */
+  #span-sedo::after {
+    content: " Afterthisssssssssssss.";  /* Adding content after the element */
+    color: rgb(20, 96, 56);
+    font-size: 44px;
+  }
+
+  /* Style the first line of the span's text */
+  #span-sedo::first-line {
+    display: block; /* Make the span behave like a block element */
+    font-size: 30px;
+    color: rgb(17, 168, 175);
+    font-weight: bold;
+  }
+
+  /* Style the first letter of the span's text */
+  #span-sedo::first-letter {
+    display: block; /* Make the span behave like a block element */
+    font-size: 340px;
+    color: rgb(231, 4, 170);
+    font-weight: bold;
+  }
+
+  /* Style the selected portion of the span text */
+  #span-sedo::selection {
+    background-color: pink;  /* Highlight selected text with yellow background */
+    color: red;  /* Change the selected text color to red */
+  }
+
+  /* Apply a marker style for a list if you have one (even though span doesn't use markers) */
+  #span-sedo::marker {
+    color: blue;  /* Set marker color for any list item if it's applied */
+    font-size: 20px;
+  }
+
+    ul li::marker {
+      color: rgb(228, 214, 10);  /* Set marker (bullet) color to blue */
+      font-size: 20px;  /* Set the marker font size to 20px */
+    }
+      div > p {
+    color: blue; /* Only direct <p> children of <div> will be blue */
+  }
+
+   /* Adjacent Sibling Combinator */ 
+   h1 + span {
+    color: green !important; /* Only the <p> immediately following <h1> will be green */
+  }
