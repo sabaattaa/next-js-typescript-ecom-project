@@ -11,7 +11,7 @@ import ProductCard from "../components/card";
 import DealsCard from "../components/dealsCard";
 import ShopNowCard from "../components/shopNowCard";
 import CategoryUi from "../components/categoryUi";
-import { categories } from "../utiils.functions";
+import { categories, productsList } from "../utiils.functions";
 import men from "../../assets/men.png";
 import Image from "next/image";
 const Page = () => {
@@ -75,18 +75,24 @@ const Page = () => {
             )}
           </div>
         </div>
+        <div className="d-flex flex-wrap justify-content-between red">
+          {productsList.map((item: any, index: any) => (
+            <ProductCard
+              producrId={index}
+              key={index}
+              status={"Hot"}
+              image={""}
+              ratingNo={3}
+              basePrice={item.price}
+              offerPrice={5}
+              companyName={""}
+              productName={item?.productName}
+              starsRating={6}
+              productNickName={""}
+            />
+          ))}
+        </div>
 
-        <ProductCard
-          status={"Hot"}
-          image={""}
-          ratingNo={3}
-          basePrice={4}
-          offerPrice={5}
-          companyName={""}
-          productName={""}
-          starsRating={6}
-          productNickName={""}
-        />
         <div
           className="d-flex align-items-center justify-content-between "
           style={{ height: "137px" }}
@@ -202,7 +208,6 @@ const Page = () => {
           </div>
         </section>
       </section>
-
     </div>
   );
 };

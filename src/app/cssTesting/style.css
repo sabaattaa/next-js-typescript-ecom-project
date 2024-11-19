@@ -139,3 +139,55 @@ p:nth-child(3) {
    h1 + span {
     color: green !important; /* Only the <p> immediately following <h1> will be green */
   }
+
+.font-styles{
+  color: #ff0000;
+  /* font-size: 1rem; */
+  font-size: calc(.4vw + 1rem);
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-style:oblique;
+  text-align: center;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-variant: small-caps;
+  text-indent: 2em;
+/* text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); */
+-webkit-font-smoothing: antialiased;
+border: 1px solid red;
+border-width: 22px;
+transition:  border-width 0.3s ease, transform 0.3s ease;;
+transition: border-color 0.5s ease-in-out;
+transition: color 0.3s ease-in;
+}
+.font-styles:hover{
+/* border-width: 2px; */
+border-color: pink;
+color: purple;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.scroll-background {
+  height: 600px;
+width: 100%;
+  background-image: url('../../assets/women.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 300px;
+  margin-bottom: 20px;
+}

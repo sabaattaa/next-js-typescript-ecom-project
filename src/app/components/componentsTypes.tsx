@@ -7,6 +7,7 @@ export interface ProductCardTypes {
   companyName: string;
   productName: string;
   starsRating: number;
+  producrId: number;
   productNickName: string;
 }
 

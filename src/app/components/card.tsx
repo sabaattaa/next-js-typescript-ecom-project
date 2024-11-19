@@ -6,6 +6,7 @@ import greencart from "../../assets/greencart.png";
 import { Quicksand } from "next/font/google";
 import { Lato } from "next/font/google";
 import {ProductCardTypes} from "./componentsTypes"
+import Link from "next/link";
 const quicksand = Quicksand({
   subsets: ["latin"],
   weight: ["700", "400", "500"],
@@ -15,7 +16,8 @@ const lato = Lato({
   weight: ["300", "400", "700", "100", "900"],
 });
 
-const ProductCard: React.FC<ProductCardTypes> =({
+const ProductCard: React.FC<ProductCardTypes> = ({
+  producrId,
   status,
   image,
   ratingNo,
@@ -38,18 +40,20 @@ const ProductCard: React.FC<ProductCardTypes> =({
     productNickName
   );
   return (
-    <div className="b-gray col-3 card-size d-flex flex-column rounded-4">
+    <div className="mt-3 b-gray col-3 card-size d-flex flex-column rounded-4">
       <div className="card-status">Hot</div>
 
       <div className="d-flex align-items-center justify-content-center w-100">
-        <Image alt="product img" src={snaks} width={181} height={181} />
+        <Link href={`/${producrId}`}>
+          <Image alt="product img" src={snaks} width={181} height={181} />{" "}
+        </Link>
       </div>
 
       <div className=" d-flex-flex-column p-3">
         <span className="small-gray-text fw-4">Snack</span>
         <div className={quicksand.className}>
           <h1 className="card-heading-text fw-7">
-            Seeds of Change Organic Quinoe
+            {productName || "Seeds of Change Organic Quinoe"}
           </h1>
         </div>
         <div className="d-flex w-100 ">
@@ -78,7 +82,6 @@ const ProductCard: React.FC<ProductCardTypes> =({
             $28.85
           </span>
 
-          
           <span
             className={`fw-9 gray-text ps-0 ${quicksand.className}`}
             style={{

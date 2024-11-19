@@ -218,3 +218,86 @@ alteration in some form`,
  
 
 ];
+
+
+
+export const productsList = [
+  {
+    productName: "Wireless Headphones",
+    price: 79.99,
+    quantity: 150,
+    description:
+      "High-quality sound with noise cancellation and long battery life.",
+    product: "Electronics",
+  },
+  {
+    productName: "Yoga Mat",
+    price: 25.5,
+    quantity: 200,
+    description:
+      "Non-slip surface, eco-friendly, perfect for all yoga sessions.",
+    product: "Fitness",
+  },
+  {
+    productName: "Bluetooth Speaker",
+    price: 49.99,
+    quantity: 100,
+    description:
+      "Portable speaker with excellent sound quality and long-lasting battery.",
+    product: "Electronics",
+  },
+  {
+    productName: "Running Shoes",
+    price: 65.0,
+    quantity: 75,
+    description:
+      "Lightweight and breathable running shoes, designed for comfort and speed.",
+    product: "Footwear",
+  },
+  {
+    productName: "Smart Watch",
+    price: 120.0,
+    quantity: 50,
+    description:
+      "Track your health and notifications with this stylish smart watch.",
+    product: "Electronics",
+  },
+  {
+    productName: "Office Chair",
+    price: 150.0,
+    quantity: 60,
+    description:
+      "Ergonomic office chair with adjustable height and back support.",
+    product: "Furniture",
+  },
+  {
+    productName: "Cooking Set",
+    price: 40.0,
+    quantity: 180,
+    description: "Complete cookware set with pots, pans, and cooking utensils.",
+    product: "Kitchen",
+  },
+  {
+    productName: "Leather Wallet",
+    price: 35.99,
+    quantity: 250,
+    description: "Premium leather wallet with card slots and a sleek design.",
+    product: "Accessories",
+  },
+  {
+    productName: "Camera Tripod",
+    price: 60.0,
+    quantity: 50,
+    description:
+      "Durable tripod with adjustable height for professional photography.",
+    product: "Photography",
+  },
+  {
+    productName: "Gaming Laptop",
+    price: 999.99,
+    quantity: 30,
+    description:
+      "High-performance laptop with a powerful graphics card and fast processor.",
+    product: "Electronics",
+  },
+];
